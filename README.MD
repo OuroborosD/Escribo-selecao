@@ -6,6 +6,7 @@ git clone https://github.com/OuroborosD/Escribo-selecao.git
 ```
 
 ## Initialization
+
 ### Manual test
 ```
 cd 01-teste-tecnico
@@ -13,7 +14,7 @@ dart sum_odd_prime.dart
 ```
 put the an integer number, when the program ask.
 
-### unit test
+### Unit test
 #### 1 configuring the project.
 #### 1.1.Create file
 create a file named **pubspec.yaml** , on the project's root. It is in this file that the dependencies will be installed.
