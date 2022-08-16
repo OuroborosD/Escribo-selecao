@@ -38,7 +38,7 @@ After this command, the dependencies should be installed like this:
 ```
 name: "project_name"
 environment:
-  sdk: '>=2.12.0 <3.0.0' ##use 2.12, because is the version that implement null safety
+  sdk: '>=2.12.0 <3.0.0' ##use 2.12, because is the version that implements null safety
 dev_dependencies:
   test: ^1.21.4
 ```
