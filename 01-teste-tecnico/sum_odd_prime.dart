@@ -1,11 +1,17 @@
+import 'dart:io';
+
 void main(){
- odd(11);
+int? sum;
+print('put an interger number: ');
+int? param  = int.tryParse(stdin.readLineSync()!);
+param  ==  null  ?  print('input is not valid')  :  sum = odd(param);
+
 }
 
 
 
-int odd(int num){
-  int number = num-1;
+int odd(int value){
+  int number = value-1;
   int sum= 0;
   for(number; number >=3; number--){
     if(number % 5 == 0 || number % 3 == 0){
