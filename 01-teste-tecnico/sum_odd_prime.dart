@@ -2,7 +2,7 @@ import 'dart:io';
 
 void main(){
 int? sum;
-print('put an interger number: ');
+print('put an integer number ');
 int? param  = int.tryParse(stdin.readLineSync()!);
 param  ==  null  ?  print('input is not valid')  :  sum = odd(param);
 
