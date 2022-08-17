@@ -45,8 +45,8 @@ dev_dependencies:
 
 #### 2. executing the unit test
 
-On the terminal, use the command
+On the terminal, use this command, To run all the tests.
 ```
  dart  run test 01-teste-tecnico/test.dart
 ```
-To run all the tests.
+
