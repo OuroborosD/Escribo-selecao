@@ -10,7 +10,7 @@ git clone https://github.com/OuroborosD/Escribo-selecao.git
 ### Manual test
 ```
 cd 01-teste-tecnico
-dart sum_odd_prime.dart
+dart 01-teste-tecnico/sum_odd_prime.dart
 ```
 put the an integer number, when the program ask.
 
